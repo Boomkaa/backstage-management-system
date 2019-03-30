@@ -1,0 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+i,
+em,
+strong,
+b,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border: 0;
+}
+
+.clearfix:after {
+  content: " ";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  display: block;
+}
+
+.clearfix {
+  zoom: 1;
+}

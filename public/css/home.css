@@ -1,0 +1,150 @@
+#header {
+  height: 60px;
+  background: #23262E;
+  color: #fff;
+  line-height: 60px;
+}
+
+#header .logo {
+  float: left;
+  margin-left: 20px;
+}
+
+#header .operation {
+  float: right;
+  width: 200px;
+}
+
+#header .operation img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#header .operation span {
+  margin-right: 20px;
+}
+
+#header .operation a {
+  color: #fff;
+}
+
+#main {
+  width: 100%;
+}
+
+#main .list {
+  float: left;
+  width: 200px;
+  min-height: 630px;
+  background: #484f47;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+
+#main .list ul li {
+  border-bottom: 1px solid #ccc;
+}
+
+#main .info {
+  width: 80%;
+  float: left;
+  padding: 15px;
+}
+
+#main .info fieldset {
+  border: 1px solid #ccc;
+}
+
+#main .info .seachName {
+  text-align: center;
+  height: 30px;
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .info .seachName input {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  outline-style: none;
+}
+
+#main .info .seachName .search {
+  display: inline-block;
+  width: 85px;
+  box-sizing: border-box;
+  background: #49685f;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+#main .info .amend {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .info .amend span {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+#main .info .amend .add {
+  background: skyblue;
+}
+
+#main .info .amend .del {
+  background: red;
+}
+
+#main .info .amend .refresh {
+  background: green;
+}
+
+#main .info .show {
+  margin-top: 30px;
+}
+
+#main .info .show table {
+  width: 1000px;
+  border-color: #ccc;
+  text-align: center;
+}
+
+#main .info .show table thead {
+  background: #ccc;
+}
+
+#main .info .show table tr {
+  height: 40px;
+}
+
+#main .info .show table tr td:nth-child(4) span {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  margin: 0 20px;
+}
+
+#main .info .show table .editor {
+  background: skyblue;
+}
+
+#main .info .show table .delete {
+  background: red;
+}
